@@ -1,2 +1,2 @@
-lab-mx80-2
-lab-mx80-1
+router-1
+router-2
