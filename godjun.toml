@@ -1,0 +1,12 @@
+[netconf]
+user = "admin"
+password = "admin"
+port = "830"
+listpath = "./list.txt"
+debug = false
+
+[http]
+port = "8080"
+uipath = "../ui"
+address = "127.0.0.1"
+
