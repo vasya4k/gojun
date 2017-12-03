@@ -11,5 +11,11 @@
 
 ui/master/bower_components
 ui/master/node_modules
+ui/bower_components
+ui/node_modules
+
+gojun/vendor
 
 .idea
+
+bgpnei1.json
