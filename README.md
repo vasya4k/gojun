@@ -1,6 +1,6 @@
 An example of a simple app which provides RESTful API to "show bgp neighbour" data via NETCONF. More info netopscasts.com/showbgp/ .
 
-On startup, it reads it's config and a list of devices. After that, it will be waiting for an HTTP GET request to "ip:port/bgpnei" "curl -X GET -k http://127.0.0.1:8080/bgpnei" endpoint. 
+On startup, it reads it's config and a list of devices. After that, it will be waiting for an HTTP GET request to "ip:port/bgpnei" "curl -X GET -k http://127.0.0.1:8888/bgpnei" endpoint. 
 
 When it receives a request, it will open concurrent connections to all routers from the list to collect BGP state for each neighbour. 
 Then it will transform the data and return it as a JSON object. The data received from an API can then be used by a front-end or by any other tool. 

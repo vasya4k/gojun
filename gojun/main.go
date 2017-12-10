@@ -56,7 +56,7 @@ func readCfg() *httpCfg {
 	var (
 		hc httpCfg
 	)
-	viper.SetConfigName("godjun")
+	viper.SetConfigName("gojun")
 	viper.AddConfigPath(".")
 	viper.SetConfigType("toml")
 	err := viper.ReadInConfig()
